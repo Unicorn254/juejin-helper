@@ -74,9 +74,9 @@ class JuejinHelper {
     return new NumPuzz(this);
   }
 
-  bugfix() {
-    return new Bugfix(this);
-  }
+  // bugfix() {
+  //   return new Bugfix(this);
+  // }
 
   browser() {
     return new JuejinBrowser(this);
